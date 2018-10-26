@@ -15,3 +15,16 @@ h1 {
     margin-right: auto;
     width: 25%;
 }
+
+textarea {
+  font-size: 15px;
+  float: left;
+  height: 150px;
+  width: 400px;
+  padding: 20px;
+  color: black;
+}
+
+i {
+  color: #dc3545;
+}
