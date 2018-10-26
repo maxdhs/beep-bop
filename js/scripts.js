@@ -1,6 +1,11 @@
 // Backend logic:
-
+debugger;
 var beepBop = function (inputNumber) {
+
+  // Set a variable for user's name:
+  if (humansName == null) {
+    var humansName = "Dave";
+  }
 
   // Create an array of numbers:
 
@@ -13,7 +18,7 @@ var beepBop = function (inputNumber) {
 
   var codedArray = numberArray.map(function(number) {
     if (number % 3 == 0 && number != 0) {
-      return "I'm sorry, Dave. I'm afraid I can't do that."
+      return "I'm sorry, " + humansName + ". I'm afraid I can't do that.";
     }
     else if (number.includes("1")) {
       return "Boop!"
@@ -33,7 +38,8 @@ var beepBop = function (inputNumber) {
 $(document).ready(function(){
   $("button").click(function(event){
     event.preventDefault();
-    var inputSentence = $("#inputNumber").val();
-    $("#output").text(beepBop(inputSentence));
+    var inputNumber = $("#inputNumber").val();
+    var humansName = $("#humansName").val();
+    $("#output").text(beepBop(inputNumber));
   });
 });
