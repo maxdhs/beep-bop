@@ -1,27 +1,25 @@
-# _Pig Latin Translator_
+# _Beep-bop Code Generator_
 
-#### A program that translates English words and phrases into Pig Latin
+#### A webpage that codes a user inputted number.
 
-#### By **Kenny Wolfenberger and Daniel Lira**
+#### By **Maxwell Dubin**
 
 ## Description
 
-A website with a textbox that allows users to input a word or phrase in English and have it translated to Pig Latin. This was accomplished primarily using JavaScript.
+A webpage which generates a coded string message by inputting a number from the user and transforming the number with a set of "Beeps", "Bops", and messages.
 
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **If word starts with a vowel, word ends with "way"** | User input: "about" | Output: "aboutway" |
-| **For words starting with one or more consonants, move all of the first consecutive consonants to the end, and add "ay". **| User Input: "pants" | Output: "antspay" |
-| **If the first consonant includes "qu", move the "u" along with the "q".**| Input: "quit" | Output: "itquay" |
-| **For words beginning with "y", treat "y" as a consonant.** | Input: "yak" | Output: "akyay" |
+| Program replaces 0 with "Beep!" |"0" |  "Beep" |
+| Program replaces numbers containing a 1 with "Boop!"| "1" |  "Boop!" |
+| Program replaces numbers divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that."| "3" |  "I'm sorry, Dave. I'm afraid I can't do that." |
 
 ## Setup/Installation Requirements
 
 * _Clone this repository on GitHub_
 * _Open the index.html file in a web browser to view the webpage_
 * _Open files using text editor (such as Atom) to view the code_
-
 
 ## Known Bugs
 * No known bugs at this time.
@@ -36,10 +34,10 @@ A website with a textbox that allows users to input a word or phrase in English 
 
 ## Support and contact details
 
-_Contact Kenny Wolfenberger - kennywolfenberger@gmail.com._
+_Contact Maxwell Dubin - maxdhs@gmail.com._
 
 ### License
 
 *{This software is licensed under the MIT license}*
 
-Copyright (c) 2018 **_Kenny Wolfenberger_**
+Copyright (c) 2018 **_Maxwell Dubin_**
