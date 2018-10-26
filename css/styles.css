@@ -28,3 +28,13 @@ textarea {
 i {
   color: #dc3545;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    flex: 50%;
+}
