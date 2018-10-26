@@ -35,6 +35,5 @@ $(document).ready(function(){
     event.preventDefault();
     var inputSentence = $("#inputNumber").val();
     $("#output").text(beepBop(inputSentence));
-
   });
 });
