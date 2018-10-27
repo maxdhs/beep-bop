@@ -1,6 +1,5 @@
 // Backend logic:
-debugger;
-var beepBop = function (inputNumber) {
+var beepBop = function (inputNumber, humansName) {
 
   // Set a variable for user's name:
   if (humansName == null) {
@@ -40,6 +39,6 @@ $(document).ready(function(){
     event.preventDefault();
     var inputNumber = $("#inputNumber").val();
     var humansName = $("#humansName").val();
-    $("#output").text(beepBop(inputNumber));
+    $("#output").text(beepBop(inputNumber, humansName));
   });
 });
