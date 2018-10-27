@@ -1,6 +1,11 @@
 // Backend logic:
 var beepBop = function (inputNumber, humansName) {
 
+  // Alert if non-number entered:
+  if (isNaN(inputNumber)) {
+    alert("I'm afraid I need a number human...");
+  }
+
   // Set a variable for user's name:
   if (humansName == null) {
     var humansName = "Dave";
@@ -39,6 +44,7 @@ $(document).ready(function(){
     event.preventDefault();
     var inputNumber = $("#inputNumber").val();
     var humansName = $("#humansName").val();
+
     $("#output").text(beepBop(inputNumber, humansName));
   });
 });
